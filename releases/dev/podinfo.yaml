@@ -8,12 +8,12 @@ metadata:
     chart: podinfo
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: glob:dev-*
+    flux.weave.works/tag.chart-image: glob:master-*
 spec:
   chartGitPath: podinfo
   releaseName: podinfo-dev
   values:
-    image: stefanprodan/podinfo:dev-hdtwcel9
+    image: bzon/podinfo:master-8yq7clnd
     replicaCount: 1
     hpa:
       enabled: false
