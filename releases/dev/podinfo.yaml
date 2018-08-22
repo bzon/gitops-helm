@@ -13,7 +13,7 @@ spec:
   chartGitPath: podinfo
   releaseName: podinfo-dev
   values:
-    image: bzon/podinfo:master-z8oyahv0
+    image: bzon/podinfo:master-tdlqqalk
     replicaCount: 1
     hpa:
       enabled: false
